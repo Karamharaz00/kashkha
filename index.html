@@ -253,8 +253,6 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;
 </style>
 </head>
 <body>
-
-
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
     <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.3Z"/></symbol>
@@ -287,7 +285,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;
       </div>
       <div class="stack">
         <figure class="s2"><img src="img/work/rovere-2.jpg" alt="إعلان أقمشة روفر: كرسي منجّد بقماش رمادي" width="1000" height="1333"></figure>
-        <figure class="s1"><img src="img/work/noyan-1.jpg" alt="إعلان نويان: طيب وعود" width="960" height="1200"></figure>
+        <figure class="s1"><img src="img/work/maalem-4.jpg" alt="إعلان عطر معالم: زجاجة عود فوق خشب" width="1000" height="1250"></figure>
         <figure class="s3"><img src="img/work/essence-3.jpg" alt="بانر عطور إسنس فوق مدينة الرياض ليلًا" width="1200" height="600"></figure>
         <div class="ticket slip" role="note">
           <span class="notch l"></span><span class="notch r"></span>
@@ -300,7 +298,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;
     </div>
   </section>
 
-  <div class="brands"><div class="wrap"><small>صمّمنا لعلامات منها</small><span>تمور مكة</span><span>بوراتي</span><span>نويان</span><span>روفر</span><span>معالم</span><span>إسنس</span></div></div>
+  <div class="brands"><div class="wrap"><small>صمّمنا لعلامات منها</small><span>تمور مكة</span><span>بوراتي</span><span>روفر</span><span>معالم</span><span>إسنس</span></div></div>
 
   <section>
     <div class="wrap">
@@ -340,11 +338,6 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;
       <article class="case rv">
         <div class="case-head"><h3>بوراتي</h3><p>مطعم برجر · إعلانات منتج وحملة رمضان</p></div>
         <div class="bento" id="bento-porati"></div>
-      </article>
-
-      <article class="case rv">
-        <div class="case-head"><h3>نويان</h3><p>عود ودهن عود · إعلانات منتج وحملة اليوم الوطني وبانرات المتجر</p></div>
-        <div class="bento" id="bento-noyan"></div>
       </article>
 
       <article class="case rv">
@@ -493,10 +486,10 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;
 document.documentElement.lang="ar";document.documentElement.dir="rtl";
 (function(){
   var P={
-    noyan:{n:"نويان",t:"عود ودهن عود"},rovere:{n:"روفر",t:"أقمشة وستائر"},essence:{n:"إسنس",t:"عطور"},
+    rovere:{n:"روفر",t:"أقمشة وستائر"},essence:{n:"إسنس",t:"عطور"},
     maalem:{n:"معالم",t:"عطور"},tomor:{n:"تمور مكة",t:"تمور ومعمول"},porati:{n:"بوراتي",t:"مطعم برجر"}
   };
-  var COUNT={noyan:11,rovere:15,essence:3,maalem:6,porati:6,tomor:8};
+  var COUNT={rovere:15,essence:3,maalem:6,porati:6,tomor:8};
 
   function el(t,a,k){var e=document.createElement(t);if(a)for(var n in a){if(n==="text")e.textContent=a[n];else if(n==="cls")e.className=a[n];else e.setAttribute(n,a[n]);}(k||[]).forEach(function(c){if(c)e.appendChild(c);});return e;}
 
@@ -520,7 +513,6 @@ document.documentElement.lang="ar";document.documentElement.dir="rtl";
       b.onclick=function(){openLb(arr,i);};box.appendChild(b);});}
   bento("bento-tomor",[["tomor-2","b-q"],["tomor-1","b-q"],["tomor-3","b-q"],["tomor-6","b-q"],["tomor-4","b-q"],["tomor-5","b-q"],["tomor-7","b-q"],["tomor-8","b-q"]]);
   bento("bento-porati",[["porati-1","b-t"],["porati-4","b-t"],["porati-3","b-t"],["porati-5","b-t"],["porati-6","b-t"],["porati-2","b-t"]]);
-  bento("bento-noyan",[["noyan-1","b-tall"],["noyan-9","b-wide"],["noyan-3","b-sq"],["noyan-2","b-sq"],["noyan-8","b-half"],["noyan-7","b-half"],["noyan-6","b-sq"],["noyan-5","b-sq"],["noyan-4","b-sq"],["noyan-10","b-half"],["noyan-11","b-half"]]);
   bento("bento-rovere",[["rovere-2","b-port"],["rovere-3","b-port"],["rovere-4","b-port"],["rovere-6","b-port"],["rovere-1","b-port"],["rovere-5","b-port"],["rovere-10","b-port"],["rovere-8","b-port"]]);
   bento("bento-maalem",[["maalem-4","b-t"],["maalem-1","b-t"],["maalem-2","b-t"],["maalem-3","b-t"],["maalem-5","b-t"],["maalem-6","b-t"]]);
   bento("bento-essence",[["essence-3","b-third"],["essence-1","b-third"],["essence-2","b-third"]]);
